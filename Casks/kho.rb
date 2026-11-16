@@ -4,21 +4,21 @@ cask "kho" do
 
   on_macos do
     on_arm do
-      sha256 "b7d394ceaf902ec67e4679d60292a507bd7a38c5c660ebe841ef0b2c5ff4e0f9"
+      sha256 "882a4a6ff3f030795650572e07fe4dbf273c5506e96c5b575c5404fada954d53"
       url "https://github.com/vuon9/kho/releases/download/v#{version}/kho_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "8f4cd91e271bbf3e18260d5a8528ac479c8f64598e34f92aeee24b7695ddcd2d"
+      sha256 "c6f2894c7c74e653640bff4b00c0f6643c9b47d98c02ccd4e4d393b82a7dc1e6"
       url "https://github.com/vuon9/kho/releases/download/v#{version}/kho_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "c868075559a61f1cd635564b653d8f27e06656324dd00fc1c6a9b8a23ad65965"
+      sha256 "e98f3decf8b6e2e4a9d1f8e15876d6f823a0c204b7aafdc68f419ab448fbd377"
       url "https://github.com/vuon9/kho/releases/download/v#{version}/kho_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "0d25bd6a2e92a2967d2b320d342c81231761a86e50d9a443c8e2b2ca6ce9bed9"
+      sha256 "b65e915b8fc65ff6b2f4175f3c15a43aa023c78ab84b1e3fee235a934819bb45"
       url "https://github.com/vuon9/kho/releases/download/v#{version}/kho_#{version}_linux_amd64.tar.gz"
     end
   end
